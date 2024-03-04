@@ -1,6 +1,6 @@
 public class AbstractionExample {
     public static void main(String[] args){
-        Shape rectangle = new Rectangle(3,10);
+        Shape rectangle = new Rectangle(3,10,"blue");
         Shape circle = new Circle(4);
         Shape triangle = new Triangle(4,5);
         System.out.println("Area of Circle: " + circle.calculateArea());
